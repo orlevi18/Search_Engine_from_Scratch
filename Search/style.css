@@ -1,0 +1,230 @@
+body {
+	font-family: Verdana, serif;
+	background-color:#333b52;
+	font-size:20px;
+	max-width:1024px;
+	margin: 0 auto;
+}
+form
+{
+	line-height:30px;
+}
+input
+{
+	font-size:20px;
+	margin-bottom:10px;
+}
+input[type=text]
+{
+	width:650px;
+}
+input[type=submit]
+{
+	margin-top:0px;
+	padding:10px;
+	background-color:#0099ff;
+	color:whitesmoke;
+	font-weight:bold;
+	border-radius:6px;
+	border:0;
+}
+button
+{
+	width:100px;
+	margin-top:0px;
+	padding:10px;
+	background-color:#0099ff;
+	color:whitesmoke;
+	font-weight:bold;
+	border-radius:6px;
+	border:0;
+}
+input[type=submit]:hover
+{
+cursor:pointer
+}
+
+td
+{
+	padding-right:15px;
+	padding-bottom:10px;
+}
+
+.label
+{
+	font-weight:bold;
+}
+
+img
+{
+	border-radius:6px;
+}
+
+.summarylbl
+{
+	font-size:30px;
+}
+
+.score
+{
+	color:#0099ff;
+	font-weight:bold;
+	font-size:30px;
+}
+
+.alert{color:black}
+.ok{color:#0099ff}
+li{margin:10px}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 120px; 
+    font-size: 32px;
+    border: 2px solid #666;
+}
+.numberCircle span {
+    text-align: center;
+    line-height: 120px;
+    display: block;
+}
+
+.report {
+	background-color:#ffffff;
+	padding:20px;
+}
+
+h2{
+	margin-bottom:0px;
+	color:#333b52;
+}
+
+hr{
+	margin-top:0;
+	border-color:#0099ff;
+	color:#0099ff;
+	background-color:#0099ff;
+}
+
+.summary
+{   
+    -moz-column-width: 170px; /* Firefox */
+    -webkit-column-width: 170px; /* webkit, Safari, Chrome */
+    column-width: 170px;
+	-webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+}
+/*remove standard list and bullet formatting from ul*/
+.summary ul
+{
+    margin: 0;
+	padding:0;
+    list-style-type: none;
+}
+
+.summary ul li
+{
+	background-color:whitesmoke;
+	border-radius:6px;
+	text-align:center;
+	height:180px;
+	line-height:40px;
+}
+/* correct webkit/chrome uneven margin on the first column*/
+.summary ul li:first-child
+{
+    margin-top:0px;
+}
+
+.icons
+{
+	height:75px;
+}
+.clearfix:before,.clearfix:after {content: " "; display: table;}
+            .clearfix:after {clear: both;}
+            .clearfix {*zoom: 1;}
+			
+
+.cc-selector
+{
+	margin:0;padding:0;
+	/*-moz-column-width: 240px;  Firefox */
+    /* -webkit-column-width: 240px;  webkit, Safari, Chrome */
+    /* column-width: 240px; */
+	-moz-column-width: 190px; /* Firefox */
+    -webkit-column-width: 190px; /* webkit, Safari, Chrome */
+    column-width: 190px;
+	 -webkit-column-count: 4;
+     -moz-column-count: 4;
+          column-count: 4;
+	-webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;	
+	width:800px;
+}		
+.cc-selector ul
+{
+	margin:0;padding:0;
+    list-style-type: none;
+}
+
+.cc-selector ul li
+{
+	text-align:left;
+	line-height:20px;
+	font-size:16px;
+	height:220px; /*250*/
+}
+.cc-selector ul li:first-child
+{
+    margin-top:0px;
+}
+	
+.cc-selector input{
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+.violence{background-image:url(https://images.8tracks.com/cover/i/008/490/201/get-attachment-2-9746.png);}
+.adult{background-image:url(https://s-i.huffpost.com/gen/2088682/images/n-BREASTS-COVER-628x314.jpg);}
+.mcgregor{background-image:url(https://boygeniusreport.files.wordpress.com/2017/01/conor.jpg);}
+.onion{background-image:url(https://i.kinja-img.com/gawker-media/image/upload/s--e9C-iNyo--/c_scale,fl_progressive,q_80,w_800/s1mf60tjfmhbx8iu9gpv.jpg);}
+.naturalnews{background-image:url(https://www.naturalnews.com/wp-content/uploads/sites/91/2017/11/School-College-Graduation-Diploma.jpg);}
+.malware{background-image:url(https://images.techhive.com/images/article/2016/11/03_shipping_malware-100694090-large.jpg);}
+.reset{background-image:url(https://image.flaticon.com/icons/svg/14/14980.svg);}
+.fakestory{background-image:url(https://us-east-1.tchyn.io/snopes-production/uploads/2017/09/nfl-burns-flag.jpg);}
+
+.cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:180px;height:120px; /*230x150*/
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.2) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.2) grayscale(1) opacity(.7);
+            filter: brightness(1.2) grayscale(1) opacity(.7);
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+
+div#loading {
+	padding-top:300px;
+	margin: auto;
+    width: 35px;
+    height: 35px;
+    display: none;
+    cursor: wait;
+    }
